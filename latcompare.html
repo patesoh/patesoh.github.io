@@ -7,7 +7,6 @@
     <title>Landing Page</title>
     <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:greenyellow">
 <!-- Start of Navigation -->
@@ -62,55 +61,29 @@
    
   <div class = "container-fluid">  
     <div class="row">
-      <div class="card col-md-8">
+      <div class="card col-md-12">
         <div class="card-body">
-          <h3>Summary: Latitude vs. X</h3>
-          <div class="col-md-1">
-          <img src="Images/lattem.png" class="fluid" width="350" height="350" id="first">
+          <h2>Summary: Latitude vs. X</h2>
+          <div class="card-text">
+                <p class="card-text">The effect of latitude on the weather, in terms of four(4) individual parameters (Temperature, Cloudiness, Humidity, Windspeed), was evaluated. As can be in the graphs below, a discernible relationship only exists between the latitude and the temperature.</p>
           </div>
-          <p class="card-text">The purpose of this project was to analyze how the weather changes relative to the latitude and longitude of the location. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
-          <br>
-          <p>After assembling the dataset, Matplotlib was used to plot various aspects of the weather against latitude and then against longitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>
-        </div>
-      </div>
-      <div class="card col-md-4">
-        <div class="card-body">
-        <h6>Latitude Visualizations</h6>
-        <div class="row">
-        <div class="card col-md-4">
-          <a href="lattemp.html">Temperature<img src="Images/lattem.png" width="100" height="100"></a>
-        </div>
-        <div class="card col-md-4">
-            <a href="latclo.html">Cloudiness<img src="Images/latclo.png" width="100" height="100"></a>
-        </div>
-        </div>
-        <div class="row">
-            <div class="card col-md-4">
-              <a href="latwin.html">WindSpeed<img src="Images/latwin.png" width="100" height="100"></a>
-            </div>
-            <div class="card col-md-4">
-                <a href="lathum.html">Humidity<img src="Images/lathum.png" width="100" height="100"></a>
-            </div>
-        </div>
-        <br>
-        <h6>Longitude Visualizations</h6>
-        <div class="row">
-        <div class="card col-md-4">
-          <a href="lontemp.html">Temperature<img src="Images/lontem.png" width="100" height="100"></a>
-        </div>
-        <div class="card col-md-4">
-            <a href="lonclo.html">Cloudiness<img src="Images/lonclo.png" width="100" height="100"></a>
-        </div>
-        </div>
-        <div class="row">
-            <div class="card col-md-4">
-              <a href="lonwin.html">WindSpeed<img src="Images/lonwin.png" width="100" height="100"></a>
-            </div>
-            <div class="card col-md-4">
-                <a href="lonhum.html">Humidity<img src="Images/lonhum.png" width="100" height="100"></a>
-            </div>
-        </div>
-      </div>
+            <div class="row">
+                <div class="card col-md-4">
+                    <a href="lattemp.html">Temperature<img src="Images/lattem.png" width="250" height="250"></a>
+                </div>
+                <div class="card col-md-4">
+                    <a href="latclo.html">Cloudiness<img src="Images/latclo.png" width="250" height="250"></a>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="card col-md-4">
+                    <a href="latwin.html">WindSpeed<img src="Images/latwin.png" width="250" height="250"></a>
+                  </div>
+                  <div class="card col-md-4">
+                      <a href="lathum.html">Humidity<img src="Images/lathum.png" width="250" height="250"></a>
+                  </div>
+              </div>
+          
       </div>
       </div>
     </div>
