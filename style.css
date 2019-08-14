@@ -1,14 +1,15 @@
 
 .navbar-brand {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
   background-color: aqua;
+  max-height:100%;
 }
 
 
-/*============ BOOTSTRAP BREAK POINTS:
 
-Extra small (xs) devices (portrait phones, less than 576px)
+
+//Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
 Small (sm) devices (landscape phones, 576px and up)
